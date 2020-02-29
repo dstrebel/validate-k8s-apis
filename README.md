@@ -6,9 +6,9 @@ The v1.16 release will stop serving the following deprecated API versions in fav
 
 You can find the full details on the deprecated APIs in 1.16 [here](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/)
 
-With this major deprecation of old API you'll probably find a lot of users still using the older APIs. Usually this is because of copy/paste of older example or they just don't know that they are using an older API version.
+With this major deprecation of old APIs you'll probably find a lot of users still using the older APIs. Usually this is because of copy/paste of older examples or they just don't know that they are using an older API version.
 
-Instead of users finding out the hard way with cryptic error message we can move the validation into our CI piplines that give the user immediate feedback with a frindly error message on the deprecated APIs they are using.
+Instead of users finding out the hard way with cryptic error messages we can move the validation into our CI pipline that gives the user immediate feedback with a frindly error message on the deprecated APIs they are using.
 
 ## Using Conftest and Open Policy Agent For Validating Kubernetes API Versions
 
@@ -117,4 +117,4 @@ FAIL: 6/6
 
 
 ### TODO
-Add sample CI Pipeline
+Add sample CI Pipeline for conftest
